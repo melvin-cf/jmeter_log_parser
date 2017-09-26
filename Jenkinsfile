@@ -1,5 +1,5 @@
 pipeline {
-    agent jmeter
+    agent any
 
     stages {
         stage('run test') {
