@@ -1,12 +1,14 @@
 pipeline {
     agent any
-
     stages {
-        stage('run test') {
+        stage('Build') {
             steps {
-                sh 'jmeter -n -t TaskForce_home_page.jmx'
+                sh 'echo "Hello World"'
+                sh '''
+                    echo "Multiline shell steps works too"
+                    ls -lah
+                '''
             }
         }
-
     }
 }
