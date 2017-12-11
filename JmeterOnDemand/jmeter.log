@@ -1,0 +1,489 @@
+2017-12-06 22:35:28,004 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2017-12-06 22:35:28,018 INFO o.a.j.JMeter: Loading user properties from: /jmeter/apache-jmeter-3.2/bin/user.properties
+2017-12-06 22:35:28,019 INFO o.a.j.JMeter: Loading system properties from: /jmeter/apache-jmeter-3.2/bin/system.properties
+2017-12-06 22:35:28,019 INFO o.a.j.JMeter: Setting JMeter property: Users=24
+2017-12-06 22:35:28,025 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
+2017-12-06 22:35:28,026 INFO o.a.j.JMeter: Version 3.2 r1790748
+2017-12-06 22:35:28,026 INFO o.a.j.JMeter: java.version=1.8.0_131
+2017-12-06 22:35:28,026 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2017-12-06 22:35:28,026 INFO o.a.j.JMeter: os.name=Linux
+2017-12-06 22:35:28,026 INFO o.a.j.JMeter: os.arch=amd64
+2017-12-06 22:35:28,026 INFO o.a.j.JMeter: os.version=4.4.0-1038-aws
+2017-12-06 22:35:28,026 INFO o.a.j.JMeter: file.encoding=ANSI_X3.4-1968
+2017-12-06 22:35:28,026 INFO o.a.j.JMeter: Max memory     =536870912
+2017-12-06 22:35:28,026 INFO o.a.j.JMeter: Available Processors =4
+2017-12-06 22:35:28,030 INFO o.a.j.JMeter: Default Locale=English (United States)
+2017-12-06 22:35:28,031 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2017-12-06 22:35:28,031 INFO o.a.j.JMeter: JMeterHome=/jmeter/apache-jmeter-3.2
+2017-12-06 22:35:28,031 INFO o.a.j.JMeter: user.dir  =/
+2017-12-06 22:35:28,031 INFO o.a.j.JMeter: PWD       =/
+2017-12-06 22:35:28,031 INFO o.a.j.JMeter: IP: 172.23.0.2 Name: masterjmeter FullName: masterjmeter
+2017-12-06 22:35:28,034 INFO o.a.j.s.FileServer: Default base='/'
+2017-12-06 22:35:28,034 INFO o.a.j.s.FileServer: Set new base='/jmeter/apache-jmeter-3.2/bin'
+2017-12-06 22:35:28,153 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2017-12-06 22:35:28,171 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2017-12-06 22:35:28,177 INFO o.a.j.s.SaveService: Using SaveService properties version 3.2
+2017-12-06 22:35:28,183 INFO o.a.j.s.SaveService: Loading file: /jmeter/apache-jmeter-3.2/bin/TaskForceDryRun.jmx
+2017-12-06 22:35:28,225 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2017-12-06 22:35:28,227 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2017-12-06 22:35:28,244 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-12-06 22:35:28,244 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-12-06 22:35:28,244 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-12-06 22:35:28,244 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-12-06 22:35:28,244 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2017-12-06 22:35:28,244 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2017-12-06 22:35:28,362 INFO o.a.j.JMeter: Creating summariser <summary>
+2017-12-06 22:35:28,367 INFO o.a.j.e.DistributedRunner: Configuring remote engine: 172.23.0.3:1098
+2017-12-06 22:35:28,463 INFO o.a.j.e.DistributedRunner: Configuring remote engine: 172.23.0.11:1098
+2017-12-06 22:35:28,497 INFO o.a.j.e.DistributedRunner: Configuring remote engine: 172.23.0.4:1098
+2017-12-06 22:35:28,537 INFO o.a.j.e.DistributedRunner: Configuring remote engine: 172.23.0.6:1098
+2017-12-06 22:35:28,578 INFO o.a.j.e.DistributedRunner: Configuring remote engine: 172.23.0.7:1098
+2017-12-06 22:35:28,622 INFO o.a.j.e.DistributedRunner: Configuring remote engine: 172.23.0.8:1098
+2017-12-06 22:35:28,665 INFO o.a.j.e.DistributedRunner: Configuring remote engine: 172.23.0.9:1098
+2017-12-06 22:35:28,717 INFO o.a.j.e.DistributedRunner: Configuring remote engine: 172.23.0.10:1098
+2017-12-06 22:35:28,763 INFO o.a.j.e.DistributedRunner: Configuring remote engine: 172.23.0.12:1098
+2017-12-06 22:35:28,815 INFO o.a.j.e.DistributedRunner: Configuring remote engine: 172.23.0.5:1098
+2017-12-06 22:35:28,850 INFO o.a.j.e.DistributedRunner: Starting remote engines
+2017-12-06 22:35:28,852 INFO o.a.j.e.DistributedRunner: Starting the test @ Wed Dec 06 22:35:28 UTC 2017 (1512599728850)
+2017-12-06 22:35:28,852 INFO o.a.j.e.ClientJMeterEngine: running clientengine run method
+2017-12-06 22:35:28,856 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2017-12-06 22:35:28,856 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2017-12-06 22:35:29,183 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2017-12-06 22:35:29,188 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:29,188 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:29,530 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:29,531 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:29,531 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:29,531 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:29,531 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:29,531 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:29,531 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:29,531 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:29,532 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:29,532 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:29,532 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:29,532 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:29,532 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:29,532 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:29,532 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:29,532 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:29,533 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:29,533 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:29,830 INFO o.a.j.e.ClientJMeterEngine: sent test to 172.23.0.7:1098 basedir='jmeter/apache-jmeter-3.2/bin'
+2017-12-06 22:35:29,830 INFO o.a.j.e.ClientJMeterEngine: Sending properties {}
+2017-12-06 22:35:29,842 INFO o.a.j.e.ClientJMeterEngine: sent run command to 172.23.0.7:1098
+2017-12-06 22:35:29,843 INFO o.a.j.e.ClientJMeterEngine: running clientengine run method
+2017-12-06 22:35:29,846 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:29,847 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:29,873 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:29,873 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:29,873 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:29,873 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:29,874 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:29,874 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:29,874 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:29,874 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:29,875 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:29,876 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:29,876 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:29,876 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:29,877 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:29,877 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:29,877 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:29,877 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:29,879 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:29,879 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:30,143 INFO o.a.j.e.ClientJMeterEngine: sent test to 172.23.0.4:1098 basedir='jmeter/apache-jmeter-3.2/bin'
+2017-12-06 22:35:30,144 INFO o.a.j.e.ClientJMeterEngine: Sending properties {}
+2017-12-06 22:35:30,150 INFO o.a.j.e.ClientJMeterEngine: sent run command to 172.23.0.4:1098
+2017-12-06 22:35:30,150 INFO o.a.j.e.ClientJMeterEngine: running clientengine run method
+2017-12-06 22:35:30,151 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:30,151 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:30,167 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:30,167 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:30,168 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:30,168 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:30,168 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:30,168 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:30,168 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:30,168 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:30,168 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:30,169 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:30,169 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:30,169 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:30,169 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:30,169 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:30,169 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:30,169 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:30,170 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:30,170 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:30,716 INFO o.a.j.e.ClientJMeterEngine: sent test to 172.23.0.8:1098 basedir='jmeter/apache-jmeter-3.2/bin'
+2017-12-06 22:35:30,716 INFO o.a.j.e.ClientJMeterEngine: Sending properties {}
+2017-12-06 22:35:30,746 INFO o.a.j.e.ClientJMeterEngine: sent run command to 172.23.0.8:1098
+2017-12-06 22:35:30,746 INFO o.a.j.e.ClientJMeterEngine: running clientengine run method
+2017-12-06 22:35:30,747 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:30,748 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:30,769 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:30,769 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:30,770 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:30,770 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:30,770 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:30,770 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:30,770 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:30,770 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:30,771 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:30,771 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:30,771 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:30,771 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:30,771 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:30,771 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:30,771 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:30,771 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:30,771 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:30,771 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:30,873 INFO o.a.j.JMeter: Started remote host:  172.23.0.7:1098 (1512599730873)
+2017-12-06 22:35:31,231 INFO o.a.j.JMeter: Started remote host:  172.23.0.4:1098 (1512599731231)
+2017-12-06 22:35:31,296 INFO o.a.j.e.ClientJMeterEngine: sent test to 172.23.0.12:1098 basedir='jmeter/apache-jmeter-3.2/bin'
+2017-12-06 22:35:31,297 INFO o.a.j.e.ClientJMeterEngine: Sending properties {}
+2017-12-06 22:35:31,305 INFO o.a.j.e.ClientJMeterEngine: sent run command to 172.23.0.12:1098
+2017-12-06 22:35:31,306 INFO o.a.j.e.ClientJMeterEngine: running clientengine run method
+2017-12-06 22:35:31,307 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:31,307 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:31,324 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:31,324 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:31,324 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:31,324 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:31,324 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:31,324 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:31,344 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:31,344 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:31,344 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:31,344 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:31,344 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:31,344 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:31,345 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:31,345 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:31,345 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:31,345 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:31,345 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:31,345 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:31,914 INFO o.a.j.e.ClientJMeterEngine: sent test to 172.23.0.3:1098 basedir='jmeter/apache-jmeter-3.2/bin'
+2017-12-06 22:35:31,914 INFO o.a.j.e.ClientJMeterEngine: Sending properties {}
+2017-12-06 22:35:31,930 INFO o.a.j.e.ClientJMeterEngine: sent run command to 172.23.0.3:1098
+2017-12-06 22:35:31,930 INFO o.a.j.e.ClientJMeterEngine: running clientengine run method
+2017-12-06 22:35:31,931 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:31,931 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:31,977 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:31,978 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:31,981 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:31,981 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:31,986 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:31,986 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:31,986 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:31,986 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:31,987 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:31,987 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:31,988 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:31,988 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:31,990 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:31,990 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:31,993 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:31,993 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:31,994 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:31,994 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:32,186 INFO o.a.j.JMeter: Started remote host:  172.23.0.8:1098 (1512599732185)
+2017-12-06 22:35:32,738 INFO o.a.j.e.ClientJMeterEngine: sent test to 172.23.0.9:1098 basedir='jmeter/apache-jmeter-3.2/bin'
+2017-12-06 22:35:32,738 INFO o.a.j.e.ClientJMeterEngine: Sending properties {}
+2017-12-06 22:35:32,756 INFO o.a.j.e.ClientJMeterEngine: sent run command to 172.23.0.9:1098
+2017-12-06 22:35:32,756 INFO o.a.j.e.ClientJMeterEngine: running clientengine run method
+2017-12-06 22:35:32,763 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:32,763 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:32,829 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:32,829 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:32,830 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:32,830 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:32,830 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:32,830 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:32,830 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:32,830 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:32,831 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:32,831 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:32,831 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:32,831 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:32,831 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:32,831 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:32,832 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:32,832 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:32,832 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:32,832 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:32,992 INFO o.a.j.JMeter: Started remote host:  172.23.0.12:1098 (1512599732992)
+2017-12-06 22:35:33,879 INFO o.a.j.e.ClientJMeterEngine: sent test to 172.23.0.11:1098 basedir='jmeter/apache-jmeter-3.2/bin'
+2017-12-06 22:35:33,879 INFO o.a.j.e.ClientJMeterEngine: Sending properties {}
+2017-12-06 22:35:33,894 INFO o.a.j.e.ClientJMeterEngine: sent run command to 172.23.0.11:1098
+2017-12-06 22:35:33,894 INFO o.a.j.e.ClientJMeterEngine: running clientengine run method
+2017-12-06 22:35:33,898 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:33,899 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:33,951 INFO o.a.j.JMeter: Started remote host:  172.23.0.3:1098 (1512599733951)
+2017-12-06 22:35:33,957 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:33,957 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:33,958 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:33,970 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:33,970 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:33,970 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:33,970 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:33,971 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:33,971 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:33,971 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:33,971 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:33,971 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:33,971 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:33,971 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:33,972 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:33,972 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:33,972 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:33,972 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:34,725 INFO o.a.j.e.ClientJMeterEngine: sent test to 172.23.0.6:1098 basedir='jmeter/apache-jmeter-3.2/bin'
+2017-12-06 22:35:34,725 INFO o.a.j.e.ClientJMeterEngine: Sending properties {}
+2017-12-06 22:35:34,749 INFO o.a.j.e.ClientJMeterEngine: sent run command to 172.23.0.6:1098
+2017-12-06 22:35:34,749 INFO o.a.j.e.ClientJMeterEngine: running clientengine run method
+2017-12-06 22:35:34,751 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:34,751 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:34,787 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:34,787 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:34,788 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:34,789 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:34,790 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:34,808 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:34,810 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:34,810 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:34,810 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:34,811 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:34,811 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:34,811 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:34,811 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:34,811 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:34,811 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:34,811 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:34,812 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:34,812 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:35,357 INFO o.a.j.JMeter: Started remote host:  172.23.0.9:1098 (1512599735357)
+2017-12-06 22:35:35,859 INFO o.a.j.e.ClientJMeterEngine: sent test to 172.23.0.10:1098 basedir='jmeter/apache-jmeter-3.2/bin'
+2017-12-06 22:35:35,859 INFO o.a.j.e.ClientJMeterEngine: Sending properties {}
+2017-12-06 22:35:35,888 INFO o.a.j.e.ClientJMeterEngine: sent run command to 172.23.0.10:1098
+2017-12-06 22:35:35,888 INFO o.a.j.e.ClientJMeterEngine: running clientengine run method
+2017-12-06 22:35:35,895 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:35,895 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:35,935 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:35,935 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:35,935 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:35,935 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:35,942 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:35,943 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:35,943 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:35,943 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:35,943 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:35,943 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:35,944 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:35,944 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:35,944 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:35,944 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:35,944 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:35,944 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:35,946 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 22:35:35,946 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 22:35:36,237 INFO o.a.j.JMeter: Started remote host:  172.23.0.11:1098 (1512599736237)
+2017-12-06 22:35:36,805 INFO o.a.j.e.ClientJMeterEngine: sent test to 172.23.0.5:1098 basedir='jmeter/apache-jmeter-3.2/bin'
+2017-12-06 22:35:36,805 INFO o.a.j.e.ClientJMeterEngine: Sending properties {}
+2017-12-06 22:35:36,828 INFO o.a.j.e.ClientJMeterEngine: sent run command to 172.23.0.5:1098
+2017-12-06 22:35:36,828 INFO o.a.j.e.DistributedRunner: Remote engines have been started
+2017-12-06 22:35:37,100 INFO o.a.j.JMeter: Started remote host:  172.23.0.6:1098 (1512599737099)
+2017-12-06 22:35:37,800 INFO o.a.j.JMeter: Started remote host:  172.23.0.10:1098 (1512599737800)
+2017-12-06 22:35:38,587 INFO o.a.j.JMeter: Started remote host:  172.23.0.5:1098 (1512599738587)
+2017-12-06 22:35:45,683 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2017-12-06 22:35:45,684 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2017-12-06 22:35:45,684 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2017-12-06 22:35:45,684 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2017-12-06 22:37:30,157 INFO o.a.j.r.Summariser: summary +   1103 in 00:01:59 =    9.2/s Avg:  1317 Min:     0 Max:  9556 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 22:38:33,064 INFO o.a.j.r.Summariser: summary +   1100 in 00:01:03 =   17.5/s Avg:  2232 Min:     0 Max: 10045 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 22:38:33,065 INFO o.a.j.r.Summariser: summary =   2203 in 00:03:02 =   12.1/s Avg:  1774 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 22:39:30,800 INFO o.a.j.r.Summariser: summary +   1600 in 00:00:58 =   27.7/s Avg:   972 Min:     0 Max:  9227 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 22:39:30,801 INFO o.a.j.r.Summariser: summary =   3803 in 00:04:00 =   15.9/s Avg:  1436 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 22:41:04,907 INFO o.a.j.r.Summariser: summary +   1400 in 00:01:34 =   14.9/s Avg:   594 Min:     0 Max:  7382 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 22:41:04,907 INFO o.a.j.r.Summariser: summary =   5203 in 00:05:34 =   15.6/s Avg:  1210 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 22:42:00,517 INFO o.a.j.r.Summariser: summary +   1000 in 00:00:56 =   18.0/s Avg:  1370 Min:     0 Max:  8420 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 22:42:00,518 INFO o.a.j.r.Summariser: summary =   6203 in 00:06:30 =   15.9/s Avg:  1235 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 22:43:00,382 INFO o.a.j.r.Summariser: summary +   1300 in 00:01:00 =   21.7/s Avg:   540 Min:     0 Max:  7188 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 22:43:00,382 INFO o.a.j.r.Summariser: summary =   7503 in 00:07:30 =   16.7/s Avg:  1115 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 22:43:30,633 INFO o.a.j.r.Summariser: summary +    500 in 00:00:30 =   16.5/s Avg:  1488 Min:     0 Max:  6619 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 22:43:30,634 INFO o.a.j.r.Summariser: summary =   8003 in 00:08:00 =   16.7/s Avg:  1138 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 22:44:01,024 INFO o.a.j.r.Summariser: summary +    900 in 00:00:30 =   29.6/s Avg:   225 Min:     0 Max:  1760 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 22:44:01,025 INFO o.a.j.r.Summariser: summary =   8903 in 00:08:30 =   17.5/s Avg:  1046 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 22:44:32,311 INFO o.a.j.r.Summariser: summary +    300 in 00:00:31 =    9.6/s Avg:   441 Min:     0 Max:  2264 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 22:44:32,311 INFO o.a.j.r.Summariser: summary =   9203 in 00:09:01 =   17.0/s Avg:  1026 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 22:45:33,289 INFO o.a.j.r.Summariser: summary +   1200 in 00:01:01 =   19.7/s Avg:   693 Min:     0 Max:  7190 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 22:45:33,290 INFO o.a.j.r.Summariser: summary =  10403 in 00:10:02 =   17.3/s Avg:   988 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 22:46:02,473 INFO o.a.j.r.Summariser: summary +    600 in 00:00:29 =   20.6/s Avg:   266 Min:     0 Max:  1830 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 22:46:02,473 INFO o.a.j.r.Summariser: summary =  11003 in 00:10:32 =   17.4/s Avg:   948 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 22:46:31,795 INFO o.a.j.r.Summariser: summary +    800 in 00:00:29 =   27.3/s Avg:   736 Min:     0 Max:  3095 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 22:46:31,795 INFO o.a.j.r.Summariser: summary =  11803 in 00:11:01 =   17.9/s Avg:   934 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 22:47:02,458 INFO o.a.j.r.Summariser: summary +    400 in 00:00:31 =   13.0/s Avg:   583 Min:     0 Max:  2830 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 22:47:02,458 INFO o.a.j.r.Summariser: summary =  12203 in 00:11:32 =   17.6/s Avg:   923 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 22:48:01,479 INFO o.a.j.r.Summariser: summary +   1100 in 00:00:59 =   18.6/s Avg:   319 Min:     0 Max:  2573 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 22:48:01,479 INFO o.a.j.r.Summariser: summary =  13303 in 00:12:31 =   17.7/s Avg:   873 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 22:48:34,934 INFO o.a.j.r.Summariser: summary +    800 in 00:00:33 =   23.9/s Avg:   673 Min:     0 Max:  3425 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 22:48:34,934 INFO o.a.j.r.Summariser: summary =  14103 in 00:13:04 =   18.0/s Avg:   861 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 22:49:01,863 INFO o.a.j.r.Summariser: summary +    500 in 00:00:27 =   18.6/s Avg:   234 Min:     0 Max:  1416 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 22:49:01,863 INFO o.a.j.r.Summariser: summary =  14603 in 00:13:31 =   18.0/s Avg:   840 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 22:50:01,341 INFO o.a.j.r.Summariser: summary +   1300 in 00:00:59 =   21.9/s Avg:   563 Min:     0 Max:  5288 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 22:50:01,341 INFO o.a.j.r.Summariser: summary =  15903 in 00:14:30 =   18.3/s Avg:   817 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 22:51:32,962 INFO o.a.j.r.Summariser: summary +   1500 in 00:01:32 =   16.4/s Avg:   387 Min:     0 Max:  5889 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 22:51:32,963 INFO o.a.j.r.Summariser: summary =  17403 in 00:16:02 =   18.1/s Avg:   780 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 22:52:03,725 INFO o.a.j.r.Summariser: summary +    800 in 00:00:31 =   26.0/s Avg:   454 Min:     0 Max:  2611 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 22:52:03,725 INFO o.a.j.r.Summariser: summary =  18203 in 00:16:33 =   18.3/s Avg:   766 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 22:53:01,283 INFO o.a.j.r.Summariser: summary +   1000 in 00:00:58 =   17.4/s Avg:   370 Min:     0 Max:  2474 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 22:53:01,284 INFO o.a.j.r.Summariser: summary =  19203 in 00:17:30 =   18.3/s Avg:   745 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 22:53:34,592 INFO o.a.j.r.Summariser: summary +    900 in 00:00:33 =   27.0/s Avg:   432 Min:     0 Max:  2868 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 22:53:34,593 INFO o.a.j.r.Summariser: summary =  20103 in 00:18:04 =   18.5/s Avg:   731 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 22:54:02,129 INFO o.a.j.r.Summariser: summary +    400 in 00:00:28 =   14.5/s Avg:   356 Min:     0 Max:  5403 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 22:54:02,129 INFO o.a.j.r.Summariser: summary =  20503 in 00:18:31 =   18.5/s Avg:   724 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 22:54:33,974 INFO o.a.j.r.Summariser: summary +    600 in 00:00:32 =   18.8/s Avg:   474 Min:     0 Max:  2425 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 22:54:33,974 INFO o.a.j.r.Summariser: summary =  21103 in 00:19:03 =   18.5/s Avg:   717 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 22:55:03,645 INFO o.a.j.r.Summariser: summary +    500 in 00:00:30 =   16.9/s Avg:   390 Min:     0 Max:  2292 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 22:55:03,646 INFO o.a.j.r.Summariser: summary =  21603 in 00:19:33 =   18.4/s Avg:   709 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 22:57:33,351 INFO o.a.j.r.Summariser: summary +   3300 in 00:02:30 =   22.0/s Avg:   427 Min:     0 Max:  5821 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 22:57:33,352 INFO o.a.j.r.Summariser: summary =  24903 in 00:22:02 =   18.8/s Avg:   672 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 22:58:03,774 INFO o.a.j.r.Summariser: summary +    300 in 00:00:30 =    9.9/s Avg:   382 Min:     0 Max:  2014 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 22:58:03,774 INFO o.a.j.r.Summariser: summary =  25203 in 00:22:33 =   18.6/s Avg:   668 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 22:58:31,773 INFO o.a.j.r.Summariser: summary +    700 in 00:00:28 =   25.0/s Avg:   265 Min:     0 Max:  1636 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 22:58:31,773 INFO o.a.j.r.Summariser: summary =  25903 in 00:23:01 =   18.8/s Avg:   657 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 22:59:05,710 INFO o.a.j.r.Summariser: summary +    500 in 00:00:34 =   14.7/s Avg:   394 Min:     0 Max:  2012 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 22:59:05,710 INFO o.a.j.r.Summariser: summary =  26403 in 00:23:35 =   18.7/s Avg:   652 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 22:59:30,144 INFO o.a.j.r.Summariser: summary +    600 in 00:00:24 =   24.6/s Avg:   660 Min:     0 Max:  2449 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 22:59:30,145 INFO o.a.j.r.Summariser: summary =  27003 in 00:23:59 =   18.8/s Avg:   653 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:00:00,710 INFO o.a.j.r.Summariser: summary +    400 in 00:00:31 =   13.1/s Avg:   262 Min:     0 Max:  1984 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:00:00,710 INFO o.a.j.r.Summariser: summary =  27403 in 00:24:30 =   18.6/s Avg:   647 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:00:35,232 INFO o.a.j.r.Summariser: summary +    900 in 00:00:35 =   26.1/s Avg:   298 Min:     0 Max:  1679 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:00:35,232 INFO o.a.j.r.Summariser: summary =  28303 in 00:25:04 =   18.8/s Avg:   636 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:02:01,048 INFO o.a.j.r.Summariser: summary +   1800 in 00:01:26 =   21.0/s Avg:   390 Min:     0 Max:  3138 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:02:01,049 INFO o.a.j.r.Summariser: summary =  30103 in 00:26:30 =   18.9/s Avg:   621 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:02:33,260 INFO o.a.j.r.Summariser: summary +    400 in 00:00:32 =   12.4/s Avg:   509 Min:     0 Max:  6344 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:02:33,261 INFO o.a.j.r.Summariser: summary =  30503 in 00:27:02 =   18.8/s Avg:   620 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:03:02,744 INFO o.a.j.r.Summariser: summary +    700 in 00:00:29 =   23.7/s Avg:   499 Min:     0 Max:  2442 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:03:02,745 INFO o.a.j.r.Summariser: summary =  31203 in 00:27:32 =   18.9/s Avg:   617 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:03:30,153 INFO o.a.j.r.Summariser: summary +    400 in 00:00:27 =   14.6/s Avg:   224 Min:     0 Max:  1457 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:03:30,154 INFO o.a.j.r.Summariser: summary =  31603 in 00:27:59 =   18.8/s Avg:   612 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:04:30,014 INFO o.a.j.r.Summariser: summary +   1400 in 00:01:00 =   23.4/s Avg:   443 Min:     0 Max:  1993 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:04:30,015 INFO o.a.j.r.Summariser: summary =  33003 in 00:28:59 =   19.0/s Avg:   605 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:05:03,040 INFO o.a.j.r.Summariser: summary +    400 in 00:00:33 =   12.1/s Avg:   243 Min:     0 Max:  1408 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:05:03,041 INFO o.a.j.r.Summariser: summary =  33403 in 00:29:32 =   18.8/s Avg:   600 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:05:32,526 INFO o.a.j.r.Summariser: summary +    800 in 00:00:29 =   27.1/s Avg:   296 Min:     0 Max:  1376 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:05:32,527 INFO o.a.j.r.Summariser: summary =  34203 in 00:30:02 =   19.0/s Avg:   593 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:06:00,337 INFO o.a.j.r.Summariser: summary +    400 in 00:00:28 =   14.4/s Avg:   502 Min:     0 Max:  2272 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:06:00,337 INFO o.a.j.r.Summariser: summary =  34603 in 00:30:29 =   18.9/s Avg:   592 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:06:30,065 INFO o.a.j.r.Summariser: summary +    700 in 00:00:30 =   23.5/s Avg:   458 Min:     0 Max:  2201 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:06:30,066 INFO o.a.j.r.Summariser: summary =  35303 in 00:30:59 =   19.0/s Avg:   590 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:07:01,124 INFO o.a.j.r.Summariser: summary +    700 in 00:00:31 =   22.5/s Avg:   236 Min:     0 Max:  1211 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:07:01,124 INFO o.a.j.r.Summariser: summary =  36003 in 00:31:30 =   19.0/s Avg:   583 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:07:32,206 INFO o.a.j.r.Summariser: summary +    400 in 00:00:31 =   12.9/s Avg:   451 Min:     0 Max:  1845 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:07:32,207 INFO o.a.j.r.Summariser: summary =  36403 in 00:32:01 =   18.9/s Avg:   581 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:08:02,943 INFO o.a.j.r.Summariser: summary +    800 in 00:00:31 =   26.0/s Avg:   486 Min:     0 Max:  5960 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:08:02,943 INFO o.a.j.r.Summariser: summary =  37203 in 00:32:32 =   19.1/s Avg:   579 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:08:31,016 INFO o.a.j.r.Summariser: summary +    400 in 00:00:28 =   14.2/s Avg:   273 Min:     0 Max:  1489 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:08:31,016 INFO o.a.j.r.Summariser: summary =  37603 in 00:33:00 =   19.0/s Avg:   576 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:09:02,652 INFO o.a.j.r.Summariser: summary +    700 in 00:00:32 =   22.1/s Avg:   333 Min:     0 Max:  1882 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:09:02,652 INFO o.a.j.r.Summariser: summary =  38303 in 00:33:32 =   19.0/s Avg:   572 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:09:31,455 INFO o.a.j.r.Summariser: summary +    700 in 00:00:29 =   24.3/s Avg:   532 Min:     0 Max:  2369 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:09:31,457 INFO o.a.j.r.Summariser: summary =  39003 in 00:34:01 =   19.1/s Avg:   571 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:10:04,492 INFO o.a.j.r.Summariser: summary +    400 in 00:00:33 =   12.1/s Avg:   354 Min:     0 Max:  1933 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:10:04,493 INFO o.a.j.r.Summariser: summary =  39403 in 00:34:34 =   19.0/s Avg:   569 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:11:00,056 INFO o.a.j.r.Summariser: summary +   1100 in 00:00:56 =   19.8/s Avg:   349 Min:     0 Max:  1967 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:11:00,056 INFO o.a.j.r.Summariser: summary =  40503 in 00:35:29 =   19.0/s Avg:   563 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:11:31,694 INFO o.a.j.r.Summariser: summary +    800 in 00:00:32 =   25.3/s Avg:   451 Min:     0 Max:  5814 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:11:31,694 INFO o.a.j.r.Summariser: summary =  41303 in 00:36:01 =   19.1/s Avg:   561 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:12:05,911 INFO o.a.j.r.Summariser: summary +    700 in 00:00:34 =   20.5/s Avg:   328 Min:     0 Max:  5465 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:12:05,911 INFO o.a.j.r.Summariser: summary =  42003 in 00:36:35 =   19.1/s Avg:   557 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:13:04,837 INFO o.a.j.r.Summariser: summary +   1200 in 00:00:59 =   20.4/s Avg:   416 Min:     0 Max:  1888 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:13:04,838 INFO o.a.j.r.Summariser: summary =  43203 in 00:37:34 =   19.2/s Avg:   553 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:13:33,064 INFO o.a.j.r.Summariser: summary +    400 in 00:00:28 =   14.2/s Avg:   316 Min:     0 Max:  1609 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:13:33,064 INFO o.a.j.r.Summariser: summary =  43603 in 00:38:02 =   19.1/s Avg:   551 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:14:01,970 INFO o.a.j.r.Summariser: summary +    600 in 00:00:29 =   20.8/s Avg:   328 Min:     0 Max:  1287 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:14:01,970 INFO o.a.j.r.Summariser: summary =  44203 in 00:38:31 =   19.1/s Avg:   548 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:14:30,037 INFO o.a.j.r.Summariser: summary +    500 in 00:00:28 =   17.8/s Avg:   371 Min:     0 Max:  1759 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:14:30,038 INFO o.a.j.r.Summariser: summary =  44703 in 00:38:59 =   19.1/s Avg:   546 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:15:34,109 INFO o.a.j.r.Summariser: summary +   1400 in 00:01:04 =   21.9/s Avg:   398 Min:     0 Max:  2304 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:15:34,109 INFO o.a.j.r.Summariser: summary =  46103 in 00:40:03 =   19.2/s Avg:   541 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:16:01,580 INFO o.a.j.r.Summariser: summary +    300 in 00:00:27 =   10.9/s Avg:   318 Min:     0 Max:  2777 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:16:01,580 INFO o.a.j.r.Summariser: summary =  46403 in 00:40:31 =   19.1/s Avg:   540 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:16:35,526 INFO o.a.j.r.Summariser: summary +    900 in 00:00:34 =   26.5/s Avg:   371 Min:     0 Max:  1819 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:16:35,526 INFO o.a.j.r.Summariser: summary =  47303 in 00:41:05 =   19.2/s Avg:   536 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:17:00,167 INFO o.a.j.r.Summariser: summary +    600 in 00:00:25 =   24.3/s Avg:   485 Min:     0 Max:  3021 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:17:00,168 INFO o.a.j.r.Summariser: summary =  47903 in 00:41:29 =   19.2/s Avg:   536 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:17:30,020 INFO o.a.j.r.Summariser: summary +    400 in 00:00:30 =   13.4/s Avg:   358 Min:     0 Max:  2174 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:17:30,020 INFO o.a.j.r.Summariser: summary =  48303 in 00:41:59 =   19.2/s Avg:   534 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:18:31,020 INFO o.a.j.r.Summariser: summary +   1200 in 00:01:01 =   19.7/s Avg:   349 Min:     0 Max:  2774 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:18:31,021 INFO o.a.j.r.Summariser: summary =  49503 in 00:43:00 =   19.2/s Avg:   530 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:19:03,443 INFO o.a.j.r.Summariser: summary +    700 in 00:00:32 =   21.6/s Avg:   425 Min:     0 Max:  1942 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:19:03,446 INFO o.a.j.r.Summariser: summary =  50203 in 00:43:33 =   19.2/s Avg:   528 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:19:32,333 INFO o.a.j.r.Summariser: summary +    400 in 00:00:29 =   13.8/s Avg:   288 Min:     0 Max:  1727 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:19:32,333 INFO o.a.j.r.Summariser: summary =  50603 in 00:44:01 =   19.2/s Avg:   526 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:20:33,874 INFO o.a.j.r.Summariser: summary +   1500 in 00:01:02 =   24.4/s Avg:   425 Min:     0 Max:  2694 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:20:33,875 INFO o.a.j.r.Summariser: summary =  52103 in 00:45:03 =   19.3/s Avg:   524 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:21:04,159 INFO o.a.j.r.Summariser: summary +    300 in 00:00:30 =    9.9/s Avg:   284 Min:     0 Max:  2671 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:21:04,159 INFO o.a.j.r.Summariser: summary =  52403 in 00:45:33 =   19.2/s Avg:   522 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:21:30,729 INFO o.a.j.r.Summariser: summary +    800 in 00:00:27 =   30.1/s Avg:   295 Min:     0 Max:  1634 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:21:30,729 INFO o.a.j.r.Summariser: summary =  53203 in 00:46:00 =   19.3/s Avg:   519 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:22:00,199 INFO o.a.j.r.Summariser: summary +    400 in 00:00:29 =   13.6/s Avg:   456 Min:     0 Max:  2080 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:22:00,200 INFO o.a.j.r.Summariser: summary =  53603 in 00:46:29 =   19.2/s Avg:   518 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:22:30,288 INFO o.a.j.r.Summariser: summary +    700 in 00:00:30 =   23.3/s Avg:   427 Min:     0 Max:  2034 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:22:30,289 INFO o.a.j.r.Summariser: summary =  54303 in 00:46:59 =   19.3/s Avg:   517 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:23:00,235 INFO o.a.j.r.Summariser: summary +    700 in 00:00:30 =   23.4/s Avg:   293 Min:     0 Max:  1958 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:23:00,235 INFO o.a.j.r.Summariser: summary =  55003 in 00:47:29 =   19.3/s Avg:   514 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:23:32,960 INFO o.a.j.r.Summariser: summary +    400 in 00:00:33 =   12.2/s Avg:   402 Min:     0 Max:  1805 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:23:32,960 INFO o.a.j.r.Summariser: summary =  55403 in 00:48:02 =   19.2/s Avg:   513 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:24:03,831 INFO o.a.j.r.Summariser: summary +    800 in 00:00:31 =   25.9/s Avg:   441 Min:     0 Max:  2053 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:24:03,831 INFO o.a.j.r.Summariser: summary =  56203 in 00:48:33 =   19.3/s Avg:   512 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:24:35,844 INFO o.a.j.r.Summariser: summary +    400 in 00:00:32 =   12.5/s Avg:   262 Min:     0 Max:  1713 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:24:35,844 INFO o.a.j.r.Summariser: summary =  56603 in 00:49:05 =   19.2/s Avg:   511 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:25:00,127 INFO o.a.j.r.Summariser: summary +    700 in 00:00:24 =   28.8/s Avg:   352 Min:     0 Max:  1624 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:25:00,128 INFO o.a.j.r.Summariser: summary =  57303 in 00:49:29 =   19.3/s Avg:   509 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:25:31,933 INFO o.a.j.r.Summariser: summary +    700 in 00:00:32 =   22.0/s Avg:   474 Min:     0 Max:  2445 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:25:31,933 INFO o.a.j.r.Summariser: summary =  58003 in 00:50:01 =   19.3/s Avg:   508 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:27:30,149 INFO o.a.j.r.Summariser: summary +   2300 in 00:01:58 =   19.5/s Avg:   381 Min:     0 Max:  2486 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:27:30,149 INFO o.a.j.r.Summariser: summary =  60303 in 00:51:59 =   19.3/s Avg:   503 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:28:00,082 INFO o.a.j.r.Summariser: summary +    500 in 00:00:30 =   16.7/s Avg:   258 Min:     0 Max:  1553 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:28:00,082 INFO o.a.j.r.Summariser: summary =  60803 in 00:52:29 =   19.3/s Avg:   501 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:29:03,347 INFO o.a.j.r.Summariser: summary +   1400 in 00:01:03 =   22.1/s Avg:   439 Min:     0 Max:  2973 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:29:03,347 INFO o.a.j.r.Summariser: summary =  62203 in 00:53:32 =   19.4/s Avg:   500 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:29:31,189 INFO o.a.j.r.Summariser: summary +    300 in 00:00:28 =   10.8/s Avg:   295 Min:     0 Max:  1295 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:29:31,189 INFO o.a.j.r.Summariser: summary =  62503 in 00:54:00 =   19.3/s Avg:   499 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:30:05,295 INFO o.a.j.r.Summariser: summary +    800 in 00:00:34 =   23.5/s Avg:   320 Min:     0 Max:  1438 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:30:05,295 INFO o.a.j.r.Summariser: summary =  63303 in 00:54:34 =   19.3/s Avg:   497 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:30:31,954 INFO o.a.j.r.Summariser: summary +    600 in 00:00:27 =   22.5/s Avg:   454 Min:     0 Max:  2452 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:30:31,955 INFO o.a.j.r.Summariser: summary =  63903 in 00:55:01 =   19.4/s Avg:   496 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:32:01,070 INFO o.a.j.r.Summariser: summary +   1500 in 00:01:29 =   16.8/s Avg:   335 Min:     0 Max:  1991 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:32:01,070 INFO o.a.j.r.Summariser: summary =  65403 in 00:56:30 =   19.3/s Avg:   493 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:32:32,615 INFO o.a.j.r.Summariser: summary +    900 in 00:00:32 =   28.5/s Avg:   419 Min:     0 Max:  2004 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:32:32,615 INFO o.a.j.r.Summariser: summary =  66303 in 00:57:02 =   19.4/s Avg:   492 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:33:00,632 INFO o.a.j.r.Summariser: summary +    500 in 00:00:28 =   17.8/s Avg:   334 Min:     0 Max:  1942 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:33:00,632 INFO o.a.j.r.Summariser: summary =  66803 in 00:57:30 =   19.4/s Avg:   490 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:34:01,579 INFO o.a.j.r.Summariser: summary +   1300 in 00:01:01 =   21.3/s Avg:   386 Min:     0 Max:  1799 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:34:01,579 INFO o.a.j.r.Summariser: summary =  68103 in 00:58:31 =   19.4/s Avg:   488 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:34:34,293 INFO o.a.j.r.Summariser: summary +    400 in 00:00:33 =   12.2/s Avg:   381 Min:     0 Max:  1755 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:34:34,294 INFO o.a.j.r.Summariser: summary =  68503 in 00:59:03 =   19.3/s Avg:   488 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:35:01,360 INFO o.a.j.r.Summariser: summary +    700 in 00:00:27 =   25.9/s Avg:   346 Min:     0 Max:  1710 Err:     0 (0.00%) Active: 240 Started: 129 Finished: 0
+2017-12-06 23:35:01,360 INFO o.a.j.r.Summariser: summary =  69203 in 00:59:30 =   19.4/s Avg:   486 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:35:31,038 INFO o.a.j.r.Summariser: summary +    400 in 00:00:30 =   13.5/s Avg:   339 Min:     0 Max:  1443 Err:     0 (0.00%) Active: 238 Started: 129 Finished: 2
+2017-12-06 23:35:31,039 INFO o.a.j.r.Summariser: summary =  69603 in 01:00:00 =   19.3/s Avg:   486 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:35:33,729 INFO o.a.j.JMeter: Finished remote host: 172.23.0.7:1098 (1512603333729)
+2017-12-06 23:35:35,694 INFO o.a.j.JMeter: Finished remote host: 172.23.0.4:1098 (1512603335694)
+2017-12-06 23:35:36,413 INFO o.a.j.JMeter: Finished remote host: 172.23.0.8:1098 (1512603336413)
+2017-12-06 23:35:36,662 INFO o.a.j.JMeter: Finished remote host: 172.23.0.12:1098 (1512603336662)
+2017-12-06 23:35:37,396 INFO o.a.j.JMeter: Finished remote host: 172.23.0.3:1098 (1512603337396)
+2017-12-06 23:35:37,686 INFO o.a.j.JMeter: Finished remote host: 172.23.0.11:1098 (1512603337686)
+2017-12-06 23:35:37,772 INFO o.a.j.JMeter: Finished remote host: 172.23.0.9:1098 (1512603337772)
+2017-12-06 23:35:38,276 INFO o.a.j.JMeter: Finished remote host: 172.23.0.6:1098 (1512603338276)
+2017-12-06 23:35:38,915 INFO o.a.j.JMeter: Finished remote host: 172.23.0.10:1098 (1512603338915)
+2017-12-06 23:35:39,195 INFO o.a.j.r.Summariser: summary +    994 in 00:00:08 =  121.9/s Avg:   481 Min:     0 Max:  4544 Err:     0 (0.00%) Active: 0 Started: 129 Finished: 240
+2017-12-06 23:35:39,196 INFO o.a.j.r.Summariser: summary =  70597 in 01:00:08 =   19.6/s Avg:   486 Min:     0 Max: 10045 Err:     0 (0.00%)
+2017-12-06 23:35:39,196 INFO o.a.j.JMeter: Finished remote host: 172.23.0.5:1098 (1512603339196)
+2017-12-06 23:35:44,201 INFO o.a.j.JMeter: Interrupting RMI Reaper

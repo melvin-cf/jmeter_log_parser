@@ -1,0 +1,294 @@
+2017-12-06 03:49:52,577 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2017-12-06 03:49:52,592 INFO o.a.j.JMeter: Loading user properties from: /jmeter/apache-jmeter-3.2/bin/user.properties
+2017-12-06 03:49:52,593 INFO o.a.j.JMeter: Loading system properties from: /jmeter/apache-jmeter-3.2/bin/system.properties
+2017-12-06 03:49:52,599 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
+2017-12-06 03:49:52,599 INFO o.a.j.JMeter: Version 3.2 r1790748
+2017-12-06 03:49:52,599 INFO o.a.j.JMeter: java.version=1.8.0_131
+2017-12-06 03:49:52,599 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2017-12-06 03:49:52,599 INFO o.a.j.JMeter: os.name=Linux
+2017-12-06 03:49:52,599 INFO o.a.j.JMeter: os.arch=amd64
+2017-12-06 03:49:52,599 INFO o.a.j.JMeter: os.version=4.4.0-1038-aws
+2017-12-06 03:49:52,599 INFO o.a.j.JMeter: file.encoding=ANSI_X3.4-1968
+2017-12-06 03:49:52,599 INFO o.a.j.JMeter: Max memory     =536870912
+2017-12-06 03:49:52,599 INFO o.a.j.JMeter: Available Processors =4
+2017-12-06 03:49:52,605 INFO o.a.j.JMeter: Default Locale=English (United States)
+2017-12-06 03:49:52,605 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2017-12-06 03:49:52,605 INFO o.a.j.JMeter: JMeterHome=/jmeter/apache-jmeter-3.2
+2017-12-06 03:49:52,605 INFO o.a.j.JMeter: user.dir  =/
+2017-12-06 03:49:52,606 INFO o.a.j.JMeter: PWD       =/
+2017-12-06 03:49:52,606 INFO o.a.j.JMeter: IP: 172.23.0.2 Name: masterjmeter FullName: masterjmeter
+2017-12-06 03:49:52,609 INFO o.a.j.s.FileServer: Default base='/'
+2017-12-06 03:49:52,609 INFO o.a.j.s.FileServer: Set new base='/jmeter/apache-jmeter-3.2/bin'
+2017-12-06 03:49:52,726 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2017-12-06 03:49:52,739 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2017-12-06 03:49:52,743 INFO o.a.j.s.SaveService: Using SaveService properties version 3.2
+2017-12-06 03:49:52,750 INFO o.a.j.s.SaveService: Loading file: /jmeter/apache-jmeter-3.2/bin/TaskForceDryRun.jmx
+2017-12-06 03:49:52,786 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2017-12-06 03:49:52,788 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2017-12-06 03:49:52,801 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-12-06 03:49:52,801 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-12-06 03:49:52,801 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-12-06 03:49:52,801 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-12-06 03:49:52,801 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2017-12-06 03:49:52,801 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2017-12-06 03:49:52,913 INFO o.a.j.JMeter: Creating summariser <summary>
+2017-12-06 03:49:52,918 INFO o.a.j.e.DistributedRunner: Configuring remote engine: 172.23.0.3:1098
+2017-12-06 03:49:53,000 INFO o.a.j.e.DistributedRunner: Configuring remote engine: 172.23.0.4:1098
+2017-12-06 03:49:53,037 INFO o.a.j.e.DistributedRunner: Starting remote engines
+2017-12-06 03:49:53,040 INFO o.a.j.e.DistributedRunner: Starting the test @ Wed Dec 06 03:49:53 UTC 2017 (1512532193037)
+2017-12-06 03:49:53,040 INFO o.a.j.e.ClientJMeterEngine: running clientengine run method
+2017-12-06 03:49:53,044 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2017-12-06 03:49:53,044 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2017-12-06 03:49:53,400 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2017-12-06 03:49:53,405 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 03:49:53,405 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 03:49:53,753 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 03:49:53,753 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 03:49:53,753 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 03:49:53,753 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 03:49:53,753 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 03:49:53,753 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 03:49:53,753 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 03:49:53,754 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 03:49:53,754 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 03:49:53,754 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 03:49:53,754 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 03:49:53,754 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 03:49:53,755 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 03:49:53,755 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 03:49:53,755 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 03:49:53,755 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 03:49:53,755 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 03:49:53,755 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 03:49:54,058 INFO o.a.j.e.ClientJMeterEngine: sent test to 172.23.0.4:1098 basedir='jmeter/apache-jmeter-3.2/bin'
+2017-12-06 03:49:54,058 INFO o.a.j.e.ClientJMeterEngine: Sending properties {}
+2017-12-06 03:49:54,068 INFO o.a.j.e.ClientJMeterEngine: sent run command to 172.23.0.4:1098
+2017-12-06 03:49:54,068 INFO o.a.j.e.ClientJMeterEngine: running clientengine run method
+2017-12-06 03:49:54,069 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 03:49:54,069 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 03:49:54,083 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 03:49:54,083 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 03:49:54,083 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 03:49:54,083 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 03:49:54,084 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 03:49:54,084 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 03:49:54,084 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 03:49:54,084 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 03:49:54,084 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 03:49:54,085 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 03:49:54,085 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 03:49:54,085 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 03:49:54,085 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 03:49:54,085 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 03:49:54,085 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 03:49:54,085 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 03:49:54,086 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2017-12-06 03:49:54,086 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2017-12-06 03:49:54,416 INFO o.a.j.e.ClientJMeterEngine: sent test to 172.23.0.3:1098 basedir='jmeter/apache-jmeter-3.2/bin'
+2017-12-06 03:49:54,416 INFO o.a.j.e.ClientJMeterEngine: Sending properties {}
+2017-12-06 03:49:54,421 INFO o.a.j.e.ClientJMeterEngine: sent run command to 172.23.0.3:1098
+2017-12-06 03:49:54,421 INFO o.a.j.e.DistributedRunner: Remote engines have been started
+2017-12-06 03:49:54,824 INFO o.a.j.JMeter: Started remote host:  172.23.0.4:1098 (1512532194824)
+2017-12-06 03:49:55,105 INFO o.a.j.JMeter: Started remote host:  172.23.0.3:1098 (1512532195105)
+2017-12-06 03:50:10,354 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2017-12-06 03:50:10,355 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2017-12-06 03:50:10,355 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2017-12-06 03:50:10,355 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2017-12-06 03:50:31,071 INFO o.a.j.r.Summariser: summary +    103 in 00:00:36 =    2.8/s Avg:   492 Min:    64 Max:  3997 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2017-12-06 03:51:30,708 INFO o.a.j.r.Summariser: summary +    900 in 00:01:00 =   15.1/s Avg:  2065 Min:     0 Max: 11050 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2017-12-06 03:51:30,709 INFO o.a.j.r.Summariser: summary =   1003 in 00:01:36 =   10.5/s Avg:  1904 Min:     0 Max: 11050 Err:     0 (0.00%)
+2017-12-06 03:53:05,233 INFO o.a.j.r.Summariser: summary +   1400 in 00:01:35 =   14.8/s Avg:  1770 Min:     0 Max: 13342 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2017-12-06 03:53:05,234 INFO o.a.j.r.Summariser: summary =   2403 in 00:03:10 =   12.6/s Avg:  1826 Min:     0 Max: 13342 Err:     0 (0.00%)
+2017-12-06 03:55:00,469 INFO o.a.j.r.Summariser: summary +   1900 in 00:01:55 =   16.5/s Avg:   730 Min:     0 Max: 10977 Err:     9 (0.47%) Active: 191 Started: 200 Finished: 9
+2017-12-06 03:55:00,470 INFO o.a.j.r.Summariser: summary =   4303 in 00:05:06 =   14.1/s Avg:  1342 Min:     0 Max: 13342 Err:     9 (0.21%)
+2017-12-06 03:56:05,275 INFO o.a.j.r.Summariser: summary +    900 in 00:01:05 =   13.9/s Avg:   708 Min:     0 Max:  3354 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 03:56:05,276 INFO o.a.j.r.Summariser: summary =   5203 in 00:06:10 =   14.0/s Avg:  1232 Min:     0 Max: 13342 Err:     9 (0.17%)
+2017-12-06 03:56:33,173 INFO o.a.j.r.Summariser: summary +    500 in 00:00:28 =   17.9/s Avg:    92 Min:     0 Max:   420 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 03:56:33,174 INFO o.a.j.r.Summariser: summary =   5703 in 00:06:38 =   14.3/s Avg:  1132 Min:     0 Max: 13342 Err:     9 (0.16%)
+2017-12-06 03:57:02,625 INFO o.a.j.r.Summariser: summary +    500 in 00:00:29 =   17.0/s Avg:   929 Min:     0 Max:  6206 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 03:57:02,626 INFO o.a.j.r.Summariser: summary =   6203 in 00:07:08 =   14.5/s Avg:  1116 Min:     0 Max: 13342 Err:     9 (0.15%)
+2017-12-06 03:57:31,824 INFO o.a.j.r.Summariser: summary +    400 in 00:00:29 =   13.7/s Avg:   429 Min:    11 Max:  1774 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 03:57:31,824 INFO o.a.j.r.Summariser: summary =   6603 in 00:07:37 =   14.4/s Avg:  1074 Min:     0 Max: 13342 Err:     9 (0.14%)
+2017-12-06 04:01:00,536 INFO o.a.j.r.Summariser: summary +   3200 in 00:03:29 =   15.3/s Avg:   433 Min:     0 Max:  5591 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:01:00,537 INFO o.a.j.r.Summariser: summary =   9803 in 00:11:06 =   14.7/s Avg:   865 Min:     0 Max: 13342 Err:     9 (0.09%)
+2017-12-06 04:01:33,642 INFO o.a.j.r.Summariser: summary +    600 in 00:00:33 =   18.1/s Avg:   145 Min:     0 Max:  1427 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:01:33,643 INFO o.a.j.r.Summariser: summary =  10403 in 00:11:39 =   14.9/s Avg:   823 Min:     0 Max: 13342 Err:     9 (0.09%)
+2017-12-06 04:02:00,654 INFO o.a.j.r.Summariser: summary +    400 in 00:00:27 =   14.8/s Avg:   835 Min:     0 Max:  2724 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:02:00,654 INFO o.a.j.r.Summariser: summary =  10803 in 00:12:06 =   14.9/s Avg:   824 Min:     0 Max: 13342 Err:     9 (0.08%)
+2017-12-06 04:02:31,040 INFO o.a.j.r.Summariser: summary +    400 in 00:00:30 =   13.2/s Avg:   525 Min:     9 Max:  2749 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:02:31,040 INFO o.a.j.r.Summariser: summary =  11203 in 00:12:36 =   14.8/s Avg:   813 Min:     0 Max: 13342 Err:     9 (0.08%)
+2017-12-06 04:03:05,992 INFO o.a.j.r.Summariser: summary +    600 in 00:00:35 =   17.2/s Avg:   151 Min:     0 Max:  1219 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:03:05,993 INFO o.a.j.r.Summariser: summary =  11803 in 00:13:11 =   14.9/s Avg:   779 Min:     0 Max: 13342 Err:     9 (0.08%)
+2017-12-06 04:04:00,320 INFO o.a.j.r.Summariser: summary +    900 in 00:00:54 =   16.6/s Avg:   539 Min:     0 Max:  5529 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:04:00,321 INFO o.a.j.r.Summariser: summary =  12703 in 00:14:05 =   15.0/s Avg:   762 Min:     0 Max: 13342 Err:     9 (0.07%)
+2017-12-06 04:04:35,717 INFO o.a.j.r.Summariser: summary +    500 in 00:00:35 =   14.1/s Avg:   182 Min:     0 Max:  1570 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:04:35,718 INFO o.a.j.r.Summariser: summary =  13203 in 00:14:41 =   15.0/s Avg:   740 Min:     0 Max: 13342 Err:     9 (0.07%)
+2017-12-06 04:05:01,518 INFO o.a.j.r.Summariser: summary +    500 in 00:00:26 =   19.4/s Avg:   580 Min:     0 Max:  2851 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:05:01,518 INFO o.a.j.r.Summariser: summary =  13703 in 00:15:07 =   15.1/s Avg:   735 Min:     0 Max: 13342 Err:     9 (0.07%)
+2017-12-06 04:05:31,986 INFO o.a.j.r.Summariser: summary +    400 in 00:00:30 =   13.1/s Avg:   658 Min:    10 Max:  3417 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:05:31,987 INFO o.a.j.r.Summariser: summary =  14103 in 00:15:37 =   15.0/s Avg:   732 Min:     0 Max: 13342 Err:     9 (0.06%)
+2017-12-06 04:06:00,753 INFO o.a.j.r.Summariser: summary +    400 in 00:00:29 =   13.9/s Avg:   290 Min:     0 Max:  1402 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:06:00,753 INFO o.a.j.r.Summariser: summary =  14503 in 00:16:06 =   15.0/s Avg:   720 Min:     0 Max: 13342 Err:     9 (0.06%)
+2017-12-06 04:06:33,182 INFO o.a.j.r.Summariser: summary +    600 in 00:00:32 =   18.5/s Avg:   226 Min:     0 Max:  5102 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:06:33,183 INFO o.a.j.r.Summariser: summary =  15103 in 00:16:38 =   15.1/s Avg:   701 Min:     0 Max: 13342 Err:     9 (0.06%)
+2017-12-06 04:07:01,985 INFO o.a.j.r.Summariser: summary +    500 in 00:00:29 =   17.4/s Avg:   782 Min:    12 Max:  3872 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:07:01,985 INFO o.a.j.r.Summariser: summary =  15603 in 00:17:07 =   15.2/s Avg:   703 Min:     0 Max: 13342 Err:     9 (0.06%)
+2017-12-06 04:07:31,578 INFO o.a.j.r.Summariser: summary +    400 in 00:00:30 =   13.5/s Avg:   282 Min:     0 Max:  1346 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:07:31,579 INFO o.a.j.r.Summariser: summary =  16003 in 00:17:37 =   15.1/s Avg:   693 Min:     0 Max: 13342 Err:     9 (0.06%)
+2017-12-06 04:08:03,367 INFO o.a.j.r.Summariser: summary +    500 in 00:00:32 =   15.7/s Avg:   157 Min:     0 Max:   836 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:08:03,367 INFO o.a.j.r.Summariser: summary =  16503 in 00:18:09 =   15.2/s Avg:   676 Min:     0 Max: 13342 Err:     9 (0.05%)
+2017-12-06 04:08:32,529 INFO o.a.j.r.Summariser: summary +    500 in 00:00:29 =   17.1/s Avg:   691 Min:     0 Max:  5966 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:08:32,530 INFO o.a.j.r.Summariser: summary =  17003 in 00:18:38 =   15.2/s Avg:   677 Min:     0 Max: 13342 Err:     9 (0.05%)
+2017-12-06 04:09:02,430 INFO o.a.j.r.Summariser: summary +    400 in 00:00:30 =   13.4/s Avg:   316 Min:    10 Max:  1610 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:09:02,430 INFO o.a.j.r.Summariser: summary =  17403 in 00:19:08 =   15.2/s Avg:   669 Min:     0 Max: 13342 Err:     9 (0.05%)
+2017-12-06 04:09:32,323 INFO o.a.j.r.Summariser: summary +    500 in 00:00:30 =   16.7/s Avg:   146 Min:     0 Max:   915 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:09:32,323 INFO o.a.j.r.Summariser: summary =  17903 in 00:19:37 =   15.2/s Avg:   654 Min:     0 Max: 13342 Err:     9 (0.05%)
+2017-12-06 04:10:02,083 INFO o.a.j.r.Summariser: summary +    500 in 00:00:30 =   16.8/s Avg:   470 Min:     0 Max:  2297 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:10:02,084 INFO o.a.j.r.Summariser: summary =  18403 in 00:20:07 =   15.2/s Avg:   649 Min:     0 Max: 13342 Err:     9 (0.05%)
+2017-12-06 04:10:33,844 INFO o.a.j.r.Summariser: summary +    400 in 00:00:32 =   12.6/s Avg:   435 Min:    12 Max:  1734 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:10:33,844 INFO o.a.j.r.Summariser: summary =  18803 in 00:20:39 =   15.2/s Avg:   644 Min:     0 Max: 13342 Err:     9 (0.05%)
+2017-12-06 04:11:00,616 INFO o.a.j.r.Summariser: summary +    500 in 00:00:27 =   18.7/s Avg:   204 Min:     0 Max:  1186 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:11:00,616 INFO o.a.j.r.Summariser: summary =  19303 in 00:21:06 =   15.2/s Avg:   633 Min:     0 Max: 13342 Err:     9 (0.05%)
+2017-12-06 04:11:31,160 INFO o.a.j.r.Summariser: summary +    500 in 00:00:31 =   16.4/s Avg:   338 Min:     0 Max:  1323 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:11:31,160 INFO o.a.j.r.Summariser: summary =  19803 in 00:21:36 =   15.3/s Avg:   626 Min:     0 Max: 13342 Err:     9 (0.05%)
+2017-12-06 04:12:00,422 INFO o.a.j.r.Summariser: summary +    400 in 00:00:29 =   13.7/s Avg:   508 Min:    12 Max:  1690 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:12:00,423 INFO o.a.j.r.Summariser: summary =  20203 in 00:22:06 =   15.2/s Avg:   623 Min:     0 Max: 13342 Err:     9 (0.04%)
+2017-12-06 04:12:30,461 INFO o.a.j.r.Summariser: summary +    500 in 00:00:30 =   16.6/s Avg:   251 Min:     0 Max:  2039 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:12:30,461 INFO o.a.j.r.Summariser: summary =  20703 in 00:22:36 =   15.3/s Avg:   614 Min:     0 Max: 13342 Err:     9 (0.04%)
+2017-12-06 04:13:03,495 INFO o.a.j.r.Summariser: summary +    600 in 00:00:33 =   18.2/s Avg:   276 Min:     0 Max:  1875 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:13:03,496 INFO o.a.j.r.Summariser: summary =  21303 in 00:23:09 =   15.3/s Avg:   605 Min:     0 Max: 13342 Err:     9 (0.04%)
+2017-12-06 04:13:33,002 INFO o.a.j.r.Summariser: summary +    400 in 00:00:30 =   13.6/s Avg:   644 Min:    12 Max:  2419 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:13:33,003 INFO o.a.j.r.Summariser: summary =  21703 in 00:23:38 =   15.3/s Avg:   605 Min:     0 Max: 13342 Err:     9 (0.04%)
+2017-12-06 04:14:01,568 INFO o.a.j.r.Summariser: summary +    400 in 00:00:29 =   14.0/s Avg:   252 Min:     0 Max:  1059 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:14:01,568 INFO o.a.j.r.Summariser: summary =  22103 in 00:24:07 =   15.3/s Avg:   599 Min:     0 Max: 13342 Err:     9 (0.04%)
+2017-12-06 04:14:35,508 INFO o.a.j.r.Summariser: summary +    600 in 00:00:34 =   17.7/s Avg:   174 Min:     0 Max:   886 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:14:35,508 INFO o.a.j.r.Summariser: summary =  22703 in 00:24:41 =   15.3/s Avg:   588 Min:     0 Max: 13342 Err:     9 (0.04%)
+2017-12-06 04:15:03,154 INFO o.a.j.r.Summariser: summary +    400 in 00:00:28 =   14.5/s Avg:   617 Min:     0 Max:  2068 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:15:03,154 INFO o.a.j.r.Summariser: summary =  23103 in 00:25:08 =   15.3/s Avg:   588 Min:     0 Max: 13342 Err:     9 (0.04%)
+2017-12-06 04:15:32,048 INFO o.a.j.r.Summariser: summary +    400 in 00:00:29 =   13.8/s Avg:   343 Min:    12 Max:  1409 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:15:32,048 INFO o.a.j.r.Summariser: summary =  23503 in 00:25:37 =   15.3/s Avg:   584 Min:     0 Max: 13342 Err:     9 (0.04%)
+2017-12-06 04:16:05,810 INFO o.a.j.r.Summariser: summary +    600 in 00:00:34 =   17.8/s Avg:   174 Min:     0 Max:   902 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:16:05,810 INFO o.a.j.r.Summariser: summary =  24103 in 00:26:11 =   15.3/s Avg:   574 Min:     0 Max: 13342 Err:     9 (0.04%)
+2017-12-06 04:16:32,062 INFO o.a.j.r.Summariser: summary +    500 in 00:00:26 =   19.0/s Avg:   492 Min:     0 Max:  1619 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:16:32,062 INFO o.a.j.r.Summariser: summary =  24603 in 00:26:37 =   15.4/s Avg:   572 Min:     0 Max: 13342 Err:     9 (0.04%)
+2017-12-06 04:17:03,603 INFO o.a.j.r.Summariser: summary +    400 in 00:00:32 =   12.7/s Avg:   355 Min:    11 Max:  1510 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:17:03,603 INFO o.a.j.r.Summariser: summary =  25003 in 00:27:09 =   15.4/s Avg:   569 Min:     0 Max: 13342 Err:     9 (0.04%)
+2017-12-06 04:17:34,903 INFO o.a.j.r.Summariser: summary +    500 in 00:00:31 =   16.0/s Avg:   165 Min:     0 Max:  1048 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:17:34,903 INFO o.a.j.r.Summariser: summary =  25503 in 00:27:40 =   15.4/s Avg:   561 Min:     0 Max: 13342 Err:     9 (0.04%)
+2017-12-06 04:18:03,207 INFO o.a.j.r.Summariser: summary +    500 in 00:00:28 =   17.7/s Avg:   427 Min:     0 Max:  2325 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:18:03,207 INFO o.a.j.r.Summariser: summary =  26003 in 00:28:08 =   15.4/s Avg:   558 Min:     0 Max: 13342 Err:     9 (0.03%)
+2017-12-06 04:18:33,043 INFO o.a.j.r.Summariser: summary +    400 in 00:00:30 =   13.4/s Avg:   438 Min:    11 Max:  1624 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:18:33,044 INFO o.a.j.r.Summariser: summary =  26403 in 00:28:38 =   15.4/s Avg:   557 Min:     0 Max: 13342 Err:     9 (0.03%)
+2017-12-06 04:19:01,754 INFO o.a.j.r.Summariser: summary +    500 in 00:00:29 =   17.4/s Avg:   234 Min:     0 Max:  1567 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:19:01,755 INFO o.a.j.r.Summariser: summary =  26903 in 00:29:07 =   15.4/s Avg:   551 Min:     0 Max: 13342 Err:     9 (0.03%)
+2017-12-06 04:19:32,629 INFO o.a.j.r.Summariser: summary +    500 in 00:00:31 =   16.2/s Avg:   255 Min:     0 Max:  1227 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:19:32,629 INFO o.a.j.r.Summariser: summary =  27403 in 00:29:38 =   15.4/s Avg:   545 Min:     0 Max: 13342 Err:     9 (0.03%)
+2017-12-06 04:20:03,281 INFO o.a.j.r.Summariser: summary +    500 in 00:00:31 =   16.3/s Avg:   550 Min:    11 Max:  6176 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:20:03,282 INFO o.a.j.r.Summariser: summary =  27903 in 00:30:08 =   15.4/s Avg:   545 Min:     0 Max: 13342 Err:     9 (0.03%)
+2017-12-06 04:20:30,848 INFO o.a.j.r.Summariser: summary +    400 in 00:00:28 =   14.5/s Avg:   226 Min:     0 Max:  1648 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:20:30,849 INFO o.a.j.r.Summariser: summary =  28303 in 00:30:36 =   15.4/s Avg:   541 Min:     0 Max: 13342 Err:     9 (0.03%)
+2017-12-06 04:21:00,708 INFO o.a.j.r.Summariser: summary +    500 in 00:00:30 =   16.7/s Avg:   218 Min:     0 Max:  1126 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:21:00,709 INFO o.a.j.r.Summariser: summary =  28803 in 00:31:06 =   15.4/s Avg:   535 Min:     0 Max: 13342 Err:     9 (0.03%)
+2017-12-06 04:21:33,012 INFO o.a.j.r.Summariser: summary +    500 in 00:00:32 =   15.5/s Avg:   560 Min:     0 Max:  1875 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:21:33,012 INFO o.a.j.r.Summariser: summary =  29303 in 00:31:38 =   15.4/s Avg:   536 Min:     0 Max: 13342 Err:     9 (0.03%)
+2017-12-06 04:22:01,665 INFO o.a.j.r.Summariser: summary +    400 in 00:00:29 =   14.0/s Avg:   307 Min:     0 Max:  5502 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:22:01,665 INFO o.a.j.r.Summariser: summary =  29703 in 00:32:07 =   15.4/s Avg:   532 Min:     0 Max: 13342 Err:     9 (0.03%)
+2017-12-06 04:23:03,216 INFO o.a.j.r.Summariser: summary +   1000 in 00:01:02 =   16.2/s Avg:   344 Min:     0 Max:  2475 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:23:03,216 INFO o.a.j.r.Summariser: summary =  30703 in 00:33:08 =   15.4/s Avg:   526 Min:     0 Max: 13342 Err:     9 (0.03%)
+2017-12-06 04:23:32,986 INFO o.a.j.r.Summariser: summary +    400 in 00:00:30 =   13.4/s Avg:   426 Min:    12 Max:  2224 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:23:32,986 INFO o.a.j.r.Summariser: summary =  31103 in 00:33:38 =   15.4/s Avg:   525 Min:     0 Max: 13342 Err:     9 (0.03%)
+2017-12-06 04:24:32,851 INFO o.a.j.r.Summariser: summary +   1100 in 00:01:00 =   18.4/s Avg:   291 Min:     0 Max:  1556 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:24:32,851 INFO o.a.j.r.Summariser: summary =  32203 in 00:34:38 =   15.5/s Avg:   517 Min:     0 Max: 13342 Err:     9 (0.03%)
+2017-12-06 04:25:02,930 INFO o.a.j.r.Summariser: summary +    400 in 00:00:30 =   13.3/s Avg:   404 Min:    11 Max:  2274 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:25:02,930 INFO o.a.j.r.Summariser: summary =  32603 in 00:35:08 =   15.5/s Avg:   516 Min:     0 Max: 13342 Err:     9 (0.03%)
+2017-12-06 04:26:03,648 INFO o.a.j.r.Summariser: summary +   1000 in 00:01:01 =   16.5/s Avg:   250 Min:     0 Max:  2116 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:26:03,648 INFO o.a.j.r.Summariser: summary =  33603 in 00:36:09 =   15.5/s Avg:   508 Min:     0 Max: 13342 Err:     9 (0.03%)
+2017-12-06 04:26:33,816 INFO o.a.j.r.Summariser: summary +    400 in 00:00:30 =   13.3/s Avg:   485 Min:    10 Max:  1816 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:26:33,816 INFO o.a.j.r.Summariser: summary =  34003 in 00:36:39 =   15.5/s Avg:   507 Min:     0 Max: 13342 Err:     9 (0.03%)
+2017-12-06 04:27:00,132 INFO o.a.j.r.Summariser: summary +    400 in 00:00:26 =   15.2/s Avg:   218 Min:     0 Max:   881 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:27:00,133 INFO o.a.j.r.Summariser: summary =  34403 in 00:37:05 =   15.5/s Avg:   504 Min:     0 Max: 13342 Err:     9 (0.03%)
+2017-12-06 04:27:33,798 INFO o.a.j.r.Summariser: summary +    600 in 00:00:34 =   17.8/s Avg:   213 Min:     0 Max:   973 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:27:33,799 INFO o.a.j.r.Summariser: summary =  35003 in 00:37:39 =   15.5/s Avg:   499 Min:     0 Max: 13342 Err:     9 (0.03%)
+2017-12-06 04:28:01,540 INFO o.a.j.r.Summariser: summary +    400 in 00:00:28 =   14.4/s Avg:   570 Min:     0 Max:  1752 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:28:01,540 INFO o.a.j.r.Summariser: summary =  35403 in 00:38:07 =   15.5/s Avg:   500 Min:     0 Max: 13342 Err:     9 (0.03%)
+2017-12-06 04:28:30,479 INFO o.a.j.r.Summariser: summary +    500 in 00:00:29 =   17.3/s Avg:   248 Min:     0 Max:  1756 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:28:30,479 INFO o.a.j.r.Summariser: summary =  35903 in 00:38:36 =   15.5/s Avg:   496 Min:     0 Max: 13342 Err:     9 (0.03%)
+2017-12-06 04:29:02,157 INFO o.a.j.r.Summariser: summary +    500 in 00:00:32 =   15.8/s Avg:   201 Min:     0 Max:   856 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:29:02,158 INFO o.a.j.r.Summariser: summary =  36403 in 00:39:07 =   15.5/s Avg:   492 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:29:32,987 INFO o.a.j.r.Summariser: summary +    500 in 00:00:31 =   16.2/s Avg:   456 Min:     0 Max:  1524 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:29:32,987 INFO o.a.j.r.Summariser: summary =  36903 in 00:39:38 =   15.5/s Avg:   492 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:30:01,767 INFO o.a.j.r.Summariser: summary +    400 in 00:00:29 =   13.9/s Avg:   307 Min:     0 Max:  1684 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:30:01,767 INFO o.a.j.r.Summariser: summary =  37303 in 00:40:07 =   15.5/s Avg:   490 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:30:31,158 INFO o.a.j.r.Summariser: summary +    500 in 00:00:29 =   17.0/s Avg:   204 Min:     0 Max:  1015 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:30:31,158 INFO o.a.j.r.Summariser: summary =  37803 in 00:40:36 =   15.5/s Avg:   486 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:31:01,821 INFO o.a.j.r.Summariser: summary +    500 in 00:00:31 =   16.3/s Avg:   404 Min:     0 Max:  1668 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:31:01,821 INFO o.a.j.r.Summariser: summary =  38303 in 00:41:07 =   15.5/s Avg:   485 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:31:31,716 INFO o.a.j.r.Summariser: summary +    400 in 00:00:30 =   13.4/s Avg:   360 Min:    11 Max:  1496 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:31:31,716 INFO o.a.j.r.Summariser: summary =  38703 in 00:41:37 =   15.5/s Avg:   484 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:32:32,245 INFO o.a.j.r.Summariser: summary +   1100 in 00:01:01 =   18.2/s Avg:   282 Min:     0 Max:  1718 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:32:32,245 INFO o.a.j.r.Summariser: summary =  39803 in 00:42:37 =   15.6/s Avg:   478 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:33:02,777 INFO o.a.j.r.Summariser: summary +    400 in 00:00:31 =   13.1/s Avg:   397 Min:    10 Max:  1855 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:33:02,778 INFO o.a.j.r.Summariser: summary =  40203 in 00:43:08 =   15.5/s Avg:   477 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:34:03,427 INFO o.a.j.r.Summariser: summary +   1000 in 00:01:01 =   16.5/s Avg:   242 Min:     0 Max:  5115 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:34:03,428 INFO o.a.j.r.Summariser: summary =  41203 in 00:44:09 =   15.6/s Avg:   472 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:34:32,180 INFO o.a.j.r.Summariser: summary +    400 in 00:00:29 =   13.9/s Avg:   528 Min:    12 Max:  1813 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:34:32,180 INFO o.a.j.r.Summariser: summary =  41603 in 00:44:37 =   15.5/s Avg:   472 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:35:03,118 INFO o.a.j.r.Summariser: summary +    500 in 00:00:31 =   16.2/s Avg:   229 Min:     0 Max:  1749 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:35:03,118 INFO o.a.j.r.Summariser: summary =  42103 in 00:45:08 =   15.5/s Avg:   469 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:35:34,452 INFO o.a.j.r.Summariser: summary +    500 in 00:00:31 =   16.0/s Avg:   239 Min:     0 Max:   930 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:35:34,452 INFO o.a.j.r.Summariser: summary =  42603 in 00:45:40 =   15.6/s Avg:   467 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:36:01,982 INFO o.a.j.r.Summariser: summary +    400 in 00:00:28 =   14.5/s Avg:   579 Min:     0 Max:  1859 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:36:01,982 INFO o.a.j.r.Summariser: summary =  43003 in 00:46:07 =   15.5/s Avg:   468 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:36:30,378 INFO o.a.j.r.Summariser: summary +    400 in 00:00:28 =   14.1/s Avg:   306 Min:     0 Max:  1371 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:36:30,378 INFO o.a.j.r.Summariser: summary =  43403 in 00:46:36 =   15.5/s Avg:   466 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:37:03,913 INFO o.a.j.r.Summariser: summary +    600 in 00:00:34 =   17.9/s Avg:   218 Min:     0 Max:  1089 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:37:03,913 INFO o.a.j.r.Summariser: summary =  44003 in 00:47:09 =   15.6/s Avg:   463 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:37:32,002 INFO o.a.j.r.Summariser: summary +    500 in 00:00:28 =   17.8/s Avg:   451 Min:     0 Max:  1448 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:37:32,003 INFO o.a.j.r.Summariser: summary =  44503 in 00:47:37 =   15.6/s Avg:   463 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:38:01,084 INFO o.a.j.r.Summariser: summary +    400 in 00:00:29 =   13.8/s Avg:   336 Min:     0 Max:  1546 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:38:01,084 INFO o.a.j.r.Summariser: summary =  44903 in 00:48:06 =   15.6/s Avg:   462 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:38:32,213 INFO o.a.j.r.Summariser: summary +    500 in 00:00:31 =   16.1/s Avg:   198 Min:     0 Max:   965 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:38:32,215 INFO o.a.j.r.Summariser: summary =  45403 in 00:48:37 =   15.6/s Avg:   459 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:39:01,496 INFO o.a.j.r.Summariser: summary +    500 in 00:00:29 =   17.1/s Avg:   342 Min:     0 Max:  1316 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:39:01,497 INFO o.a.j.r.Summariser: summary =  45903 in 00:49:07 =   15.6/s Avg:   457 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:39:32,329 INFO o.a.j.r.Summariser: summary +    400 in 00:00:31 =   13.0/s Avg:   415 Min:    11 Max:  1786 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:39:32,329 INFO o.a.j.r.Summariser: summary =  46303 in 00:49:38 =   15.6/s Avg:   457 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:40:30,516 INFO o.a.j.r.Summariser: summary +   1000 in 00:00:58 =   17.2/s Avg:   239 Min:     0 Max:  1208 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:40:30,517 INFO o.a.j.r.Summariser: summary =  47303 in 00:50:36 =   15.6/s Avg:   452 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:41:02,568 INFO o.a.j.r.Summariser: summary +    500 in 00:00:32 =   15.6/s Avg:   453 Min:    12 Max:  1384 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:41:02,569 INFO o.a.j.r.Summariser: summary =  47803 in 00:51:08 =   15.6/s Avg:   452 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:42:03,236 INFO o.a.j.r.Summariser: summary +   1000 in 00:01:01 =   16.5/s Avg:   232 Min:     0 Max:  1129 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:42:03,237 INFO o.a.j.r.Summariser: summary =  48803 in 00:52:08 =   15.6/s Avg:   448 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:42:31,688 INFO o.a.j.r.Summariser: summary +    400 in 00:00:28 =   14.1/s Avg:   516 Min:     0 Max:  1433 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:42:31,689 INFO o.a.j.r.Summariser: summary =  49203 in 00:52:37 =   15.6/s Avg:   448 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:43:03,446 INFO o.a.j.r.Summariser: summary +    500 in 00:00:32 =   15.7/s Avg:   244 Min:     0 Max:  5625 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:43:03,447 INFO o.a.j.r.Summariser: summary =  49703 in 00:53:09 =   15.6/s Avg:   446 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:43:34,688 INFO o.a.j.r.Summariser: summary +    500 in 00:00:31 =   16.0/s Avg:   203 Min:     0 Max:   912 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:43:34,689 INFO o.a.j.r.Summariser: summary =  50203 in 00:53:40 =   15.6/s Avg:   444 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:44:01,841 INFO o.a.j.r.Summariser: summary +    500 in 00:00:27 =   18.4/s Avg:   461 Min:     0 Max:  5743 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:44:01,841 INFO o.a.j.r.Summariser: summary =  50703 in 00:54:07 =   15.6/s Avg:   444 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:44:30,523 INFO o.a.j.r.Summariser: summary +    400 in 00:00:29 =   13.9/s Avg:   273 Min:     0 Max:  1288 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:44:30,524 INFO o.a.j.r.Summariser: summary =  51103 in 00:54:36 =   15.6/s Avg:   443 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:45:05,002 INFO o.a.j.r.Summariser: summary +    500 in 00:00:34 =   14.5/s Avg:   231 Min:     0 Max:  1734 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:45:05,002 INFO o.a.j.r.Summariser: summary =  51603 in 00:55:10 =   15.6/s Avg:   441 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:45:31,772 INFO o.a.j.r.Summariser: summary +    500 in 00:00:27 =   18.7/s Avg:   441 Min:     0 Max:  1901 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:45:31,772 INFO o.a.j.r.Summariser: summary =  52103 in 00:55:37 =   15.6/s Avg:   441 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:46:01,474 INFO o.a.j.r.Summariser: summary +    400 in 00:00:30 =   13.5/s Avg:   337 Min:     0 Max:  1404 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:46:01,474 INFO o.a.j.r.Summariser: summary =  52503 in 00:56:07 =   15.6/s Avg:   440 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:46:32,457 INFO o.a.j.r.Summariser: summary +    500 in 00:00:31 =   16.1/s Avg:   217 Min:     0 Max:  1398 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:46:32,458 INFO o.a.j.r.Summariser: summary =  53003 in 00:56:38 =   15.6/s Avg:   438 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:47:01,318 INFO o.a.j.r.Summariser: summary +    500 in 00:00:29 =   17.3/s Avg:   315 Min:     0 Max:  1206 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:47:01,319 INFO o.a.j.r.Summariser: summary =  53503 in 00:57:06 =   15.6/s Avg:   437 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:47:31,446 INFO o.a.j.r.Summariser: summary +    400 in 00:00:30 =   13.3/s Avg:   452 Min:    12 Max:  1427 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:47:31,446 INFO o.a.j.r.Summariser: summary =  53903 in 00:57:37 =   15.6/s Avg:   437 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:48:31,262 INFO o.a.j.r.Summariser: summary +   1000 in 00:01:00 =   16.7/s Avg:   231 Min:     0 Max:  1099 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:48:31,262 INFO o.a.j.r.Summariser: summary =  54903 in 00:58:36 =   15.6/s Avg:   433 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:49:01,860 INFO o.a.j.r.Summariser: summary +    500 in 00:00:31 =   16.3/s Avg:   457 Min:     0 Max:  1487 Err:     0 (0.00%) Active: 191 Started: 200 Finished: 9
+2017-12-06 04:49:01,860 INFO o.a.j.r.Summariser: summary =  55403 in 00:59:07 =   15.6/s Avg:   433 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:50:00,524 INFO o.a.j.r.Summariser: summary +   1100 in 00:00:59 =   18.8/s Avg:   371 Min:     0 Max:  4502 Err:     0 (0.00%) Active: 6 Started: 200 Finished: 194
+2017-12-06 04:50:00,524 INFO o.a.j.r.Summariser: summary =  56503 in 01:00:06 =   15.7/s Avg:   432 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:50:00,525 INFO o.a.j.JMeter: Finished remote host: 172.23.0.4:1098 (1512535800525)
+2017-12-06 04:50:00,975 INFO o.a.j.r.Summariser: summary +     62 in 00:00:00 =  137.5/s Avg:  4529 Min:  3175 Max:  5774 Err:     0 (0.00%) Active: 0 Started: 200 Finished: 200
+2017-12-06 04:50:00,975 INFO o.a.j.r.Summariser: summary =  56565 in 01:00:06 =   15.7/s Avg:   437 Min:     0 Max: 13342 Err:     9 (0.02%)
+2017-12-06 04:50:00,976 INFO o.a.j.JMeter: Finished remote host: 172.23.0.3:1098 (1512535800976)
+2017-12-06 04:50:05,979 INFO o.a.j.JMeter: Interrupting RMI Reaper
