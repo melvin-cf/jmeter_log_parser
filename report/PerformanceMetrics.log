@@ -1,0 +1,8 @@
+End Time : 2017-04-27 17:31:14.0 GMT
+Start Time : 2017-04-27 17:26:15.0 GMT
+GET /v1/jobs/<job_id>/copy.json?key=<api_key> : 426.0
+GET /v1/jobs.json?key=<api_key> : 508.0
+POST /v1/jobs/<job>/pause.json?key=<key> : 123.0
+PUT /v1/jobs/<id>.json?key=<api_key> : 285.0
+GET /v1/jobs/<job>.json?key=<key> : 104.0
+POST /v1/jobs/<job>/resume.json?key=<key> : 287.0
